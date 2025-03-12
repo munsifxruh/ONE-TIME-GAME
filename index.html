@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Animal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #message {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Guess The Animal</h1>
+    <p>Ask yes/no questions to guess the animal!</p>
+    <input type="text" id="question" placeholder="Ask a yes/no question...">
+    <button onclick="askQuestion()">Ask</button>
+    <p id="answer"></p>
+    <input type="text" id="guess" placeholder="Your final guess">
+    <button onclick="makeGuess()">Submit Guess</button>
+    <p id="message"></p>
+
+    <script>
+        const animal = {
+            name: "Dog",
+            features: {
+                hasTail: true,
+                isPet: true,
+                canFly: false,
+                isMammal: true,
+            }
+        };
+
+        function askQuestion() {
+            let question = document.getElementById("question").value.toLowerCase();
+            let answer = "I don't understand that question.";
+
+            if (question.includes("tail")) answer = animal.features.hasTail ? "Yes" : "No";
+            if (question.includes("pet")) answer = animal.features.isPet ? "Yes" : "No";
+            if (question.includes("fly")) answer = animal.features.canFly ? "Yes" : "No";
+            if (question.includes("mammal")) answer = animal.features.isMammal ? "Yes" : "No";
+
+            document.getElementById("answer").innerText = answer;
+        }
+
+        function makeGuess() {
+            let guess = document.getElementById("guess").value;
+            if (guess.toLowerCase() === animal.name.toLowerCase()) {
+                document.getElementById("message").innerText = "You won!";
+            } else {
+                document.getElementById("message").innerText = "You lose! The correct answer was " + animal.name;
+            }
+        }
+    </script>
+</body>
+</html>
