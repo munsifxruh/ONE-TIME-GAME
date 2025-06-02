@@ -31,7 +31,7 @@ Experience the game firsthand:
 
 ## 📸 Screenshots
 
-![Game Screenshot](https://ibb.co/s9MMc0T1)
+![Game Screenshot](https://i.ibb.co/Qv11h2WH/cf370d35-cc9d-4d7d-ad0e-25ed0d5e8f93.jpg)
 
 *Note: Replace the above link with an actual screenshot of your game.*
 
