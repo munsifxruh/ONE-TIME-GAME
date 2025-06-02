@@ -31,7 +31,7 @@ Experience the game firsthand:
 
 ## 📸 Screenshots
 
-![Game Screenshot](https://github.com/munsifxruh/ONE-TIME-GAME/blob/main/screenshot.png)
+![Game Screenshot](https://ibb.co/s9MMc0T1)
 
 *Note: Replace the above link with an actual screenshot of your game.*
 
