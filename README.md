@@ -68,7 +68,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 For any inquiries or feedback:
 
 - **GitHub**: [@munsifxruh](https://github.com/munsifxruh)
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [munsifxruh@gmail.com](mailto:munsifxruh@gmail.com)
 
 ---
 
